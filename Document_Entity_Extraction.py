@@ -12,8 +12,8 @@ load_dotenv()
 os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
 
 # Streamlit app
-st.set_page_config(page_title="PDF Budget Analysis", page_icon=":bar_chart:", layout="wide")
-st.title("📊 PDF Budget Analysis App")
+st.set_page_config(page_title="PDF Document Entity Extraction", page_icon=":bar_chart:", layout="wide")
+st.title("📊 PDF Document Entity Extraction App")
 
 st.markdown(
     "Upload a PDF file and define response schemas to analyze the content using LLMs. "
