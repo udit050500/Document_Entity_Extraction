@@ -12,12 +12,11 @@ load_dotenv()
 os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
 
 # Streamlit app
-st.set_page_config(page_title="PDF Document Entity Extraction", page_icon=":bar_chart:", layout="wide")
+st.set_page_config(page_title="SchemaXtract", page_icon=":bar_chart:", layout="wide")
 st.title("📊 PDF Document Entity Extraction App")
 
 st.markdown(
-    "Upload a PDF file and define response schemas to analyze the content using LLMs. "
-    "The app will generate structured outputs for the requested entities."
+    "Upload a PDF, set your desired response schemas, and let the app generate structured outputs for the entities you need using advanced AI models."
 )
 
 # Step 1: Upload PDF File
