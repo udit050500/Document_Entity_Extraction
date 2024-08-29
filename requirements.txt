@@ -3,6 +3,6 @@ fastapi
 langchain
 langchain_openai
 langchain_community
-pypdf
+PyMuPDF
 langchain_core
 python-dotenv
